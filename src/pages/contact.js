@@ -17,7 +17,7 @@ export default () => (
     />
 
     <ContactCard
-      link="mailto:nicholaskim1989@gmail.com"
+      link="mailto:nickkim268@gmail.com"
       icon="mail"
       label="Email"
     />

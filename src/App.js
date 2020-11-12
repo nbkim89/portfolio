@@ -16,7 +16,8 @@ const App = () => (
           <TabBar />
         <div className="col s12 m9">
           <Switch>
-            <Route exact path="/portfolio" component={Home} />
+            <Route exact path="/" component={Home} />
+            <Route path="/portfolio" component={Home} />
             <Route path="/projects" component={Projects} />
             <Route path="/contact" component={Contact} />
             <Route path="/resume" component={Resume} />
